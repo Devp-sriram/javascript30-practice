@@ -1,0 +1,30 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+body{
+  background : yellow;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.inbox{
+  background : #fff;
+  width:20vw;
+}
+
+.item{
+  display : flex;
+  padding : 4px;
+}
+
+.item p{
+  padding : 0 4px;
+}
+
+.checkbox{
+  padding: 0;
+}
